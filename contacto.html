@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Siman</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenedor">
+            <a href="index.html">
+                <img src="img/logo-siman.svg" alt="Logo Siman" class="logo">
+            </a>
+            <div class="barra-busqueda">
+                <input type="text" placeholder="¿Qué estás buscando?" class="input-busqueda">
+                <button type="submit" class="btn-busqueda">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="nav-iconos">
+                <a href="#" class="nav-icono" role="button" aria-label="Cuenta de usuario"><i class="far fa-user"></i></a>
+                <a href="#" class="nav-icono" role="button" aria-label="Lista de deseos"><i class="far fa-heart"></i></a>
+                <a href="#" class="nav-icono" role="button" aria-label="Carrito de compras"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <nav class="nav-principal">
+            <div class="contenedor">
+                <ul class="nav-lista">
+                    <li><a href="productos.html" class="nav-enlace">Productos</a></li>
+                    <li><a href="promociones.html" class="nav-enlace">Promociones</a></li>
+                    <li><a href="contacto.html" class="nav-enlace activo">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contenedor-seccion">
+        <h1 class="titulo-seccion">Contáctanos</h1>
+        <div class="layout-contacto">
+            <div class="info-contacto">
+                <h2>Información de Contacto</h2>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Centro Comercial Galerías, San Salvador</li>
+                    <li><i class="fas fa-phone"></i> (503) 2298-3377</li>
+                    <li><i class="fas fa-envelope"></i> servicio@siman.com</li>
+                    <li><i class="fas fa-clock"></i> Lun-Sáb: 10am-8pm, Dom: 10am-6pm</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Encuéntranos en nuestras sucursales</li>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495588.5160837238!2d-89.89952326331534!3d13.971382516948875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63303e5015cea1%3A0x7604967b58a6310e!2sAlmacenes%20SIMAN%20%C2%B7%20Galer%C3%ADas!5e0!3m2!1ses!2ssv!4v1751946989231!5m2!1ses!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </ul>
+            </div>
+            <div class="formulario-contacto">
+                <h2>Envíanos un mensaje</h2>
+                <form>
+                    <div class="grupo-form">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="grupo-form">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="grupo-form">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="mapa-sucursales">
+            <div class="tarjeta-sucursal">
+                <h2 class="titulo-seccion">Nuestras Sucursales</h2>                        
+                <div class="grid-3-columnas">                
+                    <div class="tarjeta-sucursal">
+                        <img src="img/sucursal-galerias.jpg" alt="Siman Galerías">                
+                        <div class="tarjeta-sucursal-contenido">
+                            <h3>Siman Galerías</h3>
+                            <p>Centro Comercial Galerías, Paseo General Escalón, San Salvador</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495588.5160837238!2d-89.89952326331534!3d13.971382516948875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63303e5015cea1%3A0x7604967b58a6310e!2sAlmacenes%20SIMAN%20%C2%B7%20Galer%C3%ADas!5e0!3m2!1ses!2ssv!4v1751947454548!5m2!1ses!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+                        </div> 
+                    </div>
+                    <div class="tarjeta-sucursal">
+                        <img src="img/sucursal-metrocentro.jpg" alt="Siman Metrocentro">
+                        <div class="tarjeta-sucursal-contenido">
+                            <h3>Siman Metrocentro</h3>
+                            <p>Centro Comercial Metrocentro, San Salvador</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.2169088045935!2d-89.21347379050415!3d13.705308686626143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63306062d87639%3A0x55ab0139f4a396d1!2sAlmacenes%20SIMAN%20%E2%80%A2%20Metrocentro%20San%20Salvador!5e0!3m2!1ses!2ssv!4v1751947609842!5m2!1ses!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="tarjeta-sucursal">
+                        <img src="img/sucursal-multiplaza.jpg" alt="Siman Multiplaza">
+                        <div class="tarjeta-sucursal-contenido">
+                            <h3>Siman Multiplaza</h3>
+                            <p>Centro Comercial Multiplaza, Antiguo Cuscatlán, La Libertad</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.9620969218917!2d-89.24884823301667!3d13.679950945793092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632e2afad31d7d%3A0x40f719aa05749a78!2sMultiplaza!5e0!3m2!1ses!2ssv!4v1751947702288!5m2!1ses!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <div class="pie-pagina-grid">
+                <div class="pie-pagina-columna">
+                    <img src="img/logo-2.svg" alt="Logo Siman" class="logo-pie-pagina">
+                    <h3>Sobre Nosotros</h3>
+                    <p>La tienda por departamentos líder en El Salvador.</p>
+                </div>
+                <div class="pie-pagina-columna">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="promociones.html">Promociones</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="pie-pagina-columna">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>Dirección: Centro Comercial Galerías, San Salvador</li>
+                        <li>Teléfono: (503) 2298-3377</li>
+                        <li>Email: servicio@siman.com</li>
+                    </ul>
+                </div>
+                <div class="pie-pagina-columna">
+                    <h3>Síguenos</h3>
+                    <div class="nav-iconos">
+                        <a href="#" class="nav-icono"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="nav-icono"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="nav-icono"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pie-pagina-bottom">
+                <p>&copy; 2025 Siman. Proyecto creado por Edwin Juarez.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

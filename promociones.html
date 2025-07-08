@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones - Siman</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenedor">
+            <a href="index.html">
+                <img src="img/logo-siman.svg" alt="Logo Siman" class="logo">
+            </a>
+            <div class="barra-busqueda">
+                <input type="text" placeholder="¿Qué estás buscando?" class="input-busqueda">
+                <button type="submit" class="btn-busqueda">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="nav-iconos">
+                <a href="#" class="nav-icono" role="button" aria-label="Cuenta de usuario"><i class="far fa-user"></i></a>
+                <a href="#" class="nav-icono" role="button" aria-label="Lista de deseos"><i class="far fa-heart"></i></a>
+                <a href="#" class="nav-icono" role="button" aria-label="Carrito de compras"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <nav class="nav-principal">
+            <div class="contenedor">
+                <ul class="nav-lista">
+                    <li><a href="productos.html" class="nav-enlace">Productos</a></li>
+                    <li><a href="promociones.html" class="nav-enlace activo">Promociones</a></li>
+                    <li><a href="contacto.html" class="nav-enlace">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contenedor seccion">
+        <h1 class="titulo-seccion">Promociones Especiales</h1>
+        <div class="grid-3-columnas">
+            <!-- Promoción 1 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/promocion1.jpg" alt="Promoción 1">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">40% en Línea Blanca</h3>
+                    <p>Válido hasta agotar existencias. Aplican restricciones.</p>
+                    <a href="#" class="btn-outline">Ver productos</a>
+                </div>
+            </div>
+            <!-- Promoción 2 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/promocion2.jpg" alt="Promoción 2">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">2x1 en Perfumería</h3>
+                    <p>En marcas seleccionadas. No aplica con otras promociones.</p>
+                    <a href="#" class="btn-outline">Ver perfumes</a>
+                </div>
+            </div>
+            <!-- Promoción 3 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/promocion3.jpg" alt="Promoción 3">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">20% en Juguetes</h3>
+                    <p>Prepara los regalos para los más pequeños.</p>
+                    <a href="#" class="btn-outline">Ver juguetes</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <div class="pie-pagina-grid">
+                <div class="pie-pagina-columna">
+                    <img src="img/logo-2.svg" alt="Logo Siman" class="logo-pie-pagina">
+                    <h3>Sobre Nosotros</h3>
+                    <p>La tienda por departamentos líder en El Salvador.</p>
+                </div>
+                <div class="pie-pagina-columna">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="promociones.html">Promociones</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="pie-pagina-columna">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>Dirección: Centro Comercial Galerías, San Salvador</li>
+                        <li>Teléfono: (503) 2298-3377</li>
+                        <li>Email: servicio@siman.com</li>
+                    </ul>
+                </div>
+                <div class="pie-pagina-columna">
+                    <h3>Síguenos</h3>
+                    <div class="nav-iconos">
+                        <a href="#" class="nav-icono"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="nav-icono"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="nav-icono"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pie-pagina-bottom">
+                <p>&copy; 2025 Siman. Proyecto creado por Edwin Juarez.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

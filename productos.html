@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Siman</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenedor">
+            <a href="index.html">
+                <img src="img/logo-siman.svg" alt="Logo Siman" class="logo">
+            </a>
+            <div class="barra-busqueda">
+                <input type="text" placeholder="¿Qué estás buscando?" class="input-busqueda">
+                <button type="submit" class="btn-busqueda">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="nav-iconos">
+                <a href="#" class="nav-icono" role="button" aria-label="Cuenta de usuario"><i class="far fa-user"></i></a>
+                <a href="#" class="nav-icono" role="button" aria-label="Lista de deseos"><i class="far fa-heart"></i></a>
+                <a href="#" class="nav-icono" role="button" aria-label="Carrito de compras"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <nav class="nav-principal">
+            <div class="contenedor">
+                <ul class="nav-lista">
+                    <li><a href="productos.html" class="nav-enlace activo">Productos</a></li>
+                    <li><a href="promociones.html" class="nav-enlace">Promociones</a></li>
+                    <li><a href="contacto.html" class="nav-enlace">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contenedor seccion">
+        <h1 class="titulo-seccion">Nuestros Productos</h1>
+        <div class="grid-4-columnas">
+            <!-- Producto 1 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/producto1.jpg" alt="Producto 1">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">Vestido floral verano</h3>
+                    <p><span class="precio-actual">$49.99</span> <span class="precio-antiguo">$69.99</span></p>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/producto2.jpg" alt="Producto 2">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">Cafetera programable</h3>
+                    <p><span class="precio-actual">$89.99</span> <span class="precio-antiguo">$109.99</span></p>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/producto3.jpg" alt="Producto 3">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">Smart TV 55"</h3>
+                    <p><span class="precio-actual">$599.99</span></p>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+            <!-- Producto 4 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/producto4.jpg" alt="Producto 4">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">Perfume Elegance</h3>
+                    <p><span class="precio-actual">$79.99</span></p>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+            <!-- Producto 5 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/producto5.jpg" alt="Producto 5">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">Zapatos de cuero</h3>
+                    <p><span class="precio-actual">$99.99</span></p>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/producto6.jpg" alt="Producto 6">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">Sofá de 3 plazas</h3>
+                    <p><span class="precio-actual">$499.99</span></p>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/producto7.jpg" alt="Producto 7">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">Laptop ultradelgada</h3>
+                    <p><span class="precio-actual">$899.99</span></p>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="img/producto8.jpg" alt="Producto 8">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h3 class="tarjeta-titulo">Set de maquillaje</h3>
+                    <p><span class="precio-actual">$39.99</span></p>
+                    <a href="#" class="btn">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <div class="pie-pagina-grid">
+                <div class="pie-pagina-columna">
+                    <img src="img/logo-2.svg" alt="Logo Siman" class="logo-pie-pagina">
+                    <h3>Sobre Nosotros</h3>
+                    <p>La tienda por departamentos líder en El Salvador.</p>
+                </div>
+                <div class="pie-pagina-columna">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="promociones.html">Promociones</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="pie-pagina-columna">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>Dirección: Centro Comercial Galerías, San Salvador</li>
+                        <li>Teléfono: (503) 2298-3377</li>
+                        <li>Email: servicio@siman.com</li>
+                    </ul>
+                </div>
+                <div class="pie-pagina-columna">
+                    <h3>Síguenos</h3>
+                    <div class="nav-iconos">
+                        <a href="#" class="nav-icono"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="nav-icono"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="nav-icono"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pie-pagina-bottom">
+                <p>&copy; 2025 Siman. Proyecto creado por Edwin Juarez.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
