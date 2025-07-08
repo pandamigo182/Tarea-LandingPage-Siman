@@ -419,3 +419,74 @@ img {
     height: 200px;
     object-fit: cover;
 }
+
+/* ===== MEDIA QUERIES PARA RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .contenedor {
+        width: 96%;
+    }
+    .grid-4-columnas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .pie-pagina-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .layout-contacto {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .encabezado-contenedor {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .barra-busqueda {
+        width: 100%;
+    }
+    .nav-lista {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .banner-contenido h1 {
+        font-size: 2rem;
+    }
+    .grid-4-columnas {
+        grid-template-columns: 1fr;
+    }
+    .pie-pagina-grid {
+        grid-template-columns: 1fr;
+    }
+    .grid-3-columnas {
+        grid-template-columns: 1fr;
+    }
+    .tarjeta-imagen img,
+    .tarjeta-sucursal img {
+        height: 150px;
+    }
+    .seccion {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.95rem;
+    }
+    .banner-contenido {
+        padding: 1rem;
+    }
+    .banner-contenido h1 {
+        font-size: 1.3rem;
+    }
+    .btn, .btn-outline {
+        padding: 0.5rem 1rem;
+        font-size: 0.95rem;
+    }
+    .logo {
+        height: 36px;
+    }
+    .logo-pie-pagina {
+        height: 50px;
+    }
+}
